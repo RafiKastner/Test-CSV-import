@@ -14,7 +14,7 @@
             const data = await getData();
             const ctx = document.getElementById('chart').getContext('2d');
             new Chart(ctx, {
-                type: 'line',
+                type: 'bar',
                 data: {
                     labels: data.xyears,
                     datasets: [{
